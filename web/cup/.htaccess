@@ -1,0 +1,25 @@
+# Seky's Liga System
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /webb/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/?$ cup.php?stranka=$1&p1=$2&p2=$3&p3=$4 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/?$ cup.php?stranka=$1&p1=$2&p2=$3 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/([^/]+)/?$ cup.php?stranka=$1&p1=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/?$ cup.php?stranka=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^$ cup.php?stranka=0 [L,QSA]
+
+</IfModule>

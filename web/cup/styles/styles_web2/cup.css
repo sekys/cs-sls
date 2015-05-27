@@ -1,0 +1,157 @@
+.cup_nazov {
+	color: white;
+	font-weight:bold;
+	padding:4px;
+	background-image: url("cup_top.gif");
+	background-repeat: repeat;
+}	
+.cup_riadok {
+	color: black;
+	background-image: url("cup_tabulka.png");
+	background-repeat: repeat;
+	padding: 5px;
+}
+.cup_body {
+	-moz-border-radius:20px 20px 20px 20px;
+	background-color:white;
+	color:#333333;
+	margin-bottom:30px;
+	padding:15px;
+	font-size:10px;
+	color:#999;
+}		
+.cup_body a{
+	color:#999;
+	text-decoration:none;
+}
+.cup_clan {
+	color:#9BC607;
+	cursor:pointer;
+	text-decoration:none;
+}	
+.cup_credits {
+	color: #000;
+	cursor:pointer;
+	text-decoration: none;
+	padding-bottom: 20px;
+}/*
+.cup_button {
+	border:1px solid;
+	color:#345cce;
+	font-size:9px;
+	padding: 5px;
+	background-color: #fff;
+	padding-bottom:3px;
+	padding-top:3px;
+}*/
+#cup_button {
+	height:22px;
+	width:64px;
+}
+.cup_form_text {
+	/*color: #345cce;*/
+	color: #000;
+	font-weight:bold;
+	font-size:10px;
+}	
+.cup_textarea {
+	width:300px;
+	height:100px;
+	background-color:#ECECE4;
+	border:1px solid #000000;
+	color:black;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+}
+.cup_sprava {
+	height: 80px;
+	width: 300px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.cup_poznamka {
+	color: black;
+	font-size:10px;
+}		
+.clan_avatar {
+	float:left;
+	width: 180px;
+}	
+.cup_sprava_eror {
+	color: #993333;
+	font-weight:bold;
+}			
+.cup_sprava_eror a{
+	color: #993333;
+	font-weight: bold;
+	text-decoration:none;
+}
+.cup_sprava_oznam {
+	color: #0959B3;
+	font-weight:bold;
+	padding: 1px;
+}
+.cup_sprava_oznam a{
+	color: #0066CC;
+	font-weight: bold;
+	text-decoration:none;
+}
+	/* 	 Zapasi	 */
+.cup_zapas_bg {
+	background-image: url("score_bg.png");
+	background-repeat: repeat;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size:16px;
+	padding:5px;
+	border: 1px solid rgb(188,112,0);
+}
+.cup_zapas_border {
+	border: 1px solid rgb(188,112,0);
+}
+.cup_zapas_bg select{
+	background-image: url("score_sel.png");
+	background-repeat: repeat;
+}
+.cup_zapas_text_normal {
+	color: rgb(255,176,0);
+}
+.cup_zapas_text_spe {
+	color: rgb(204,204,204 );
+}	
+.cup_zapas_text_ct {
+	color: rgb(153,204,255);
+}
+.cup_zapas_text_t {
+	color: rgb(255,64,64);
+}	
+#cup_zapas_ciara_normal {
+	border-bottom:1px solid rgb(255,176,0);
+}
+#cup_zapas_ciara_spe {
+	border-bottom:1px solid rgb(204,204,204 );
+}	
+#cup_zapas_ciara_ct {
+	border-bottom:1px solid rgb(153,204,255);
+}
+#cup_zapas_ciara_t {
+	border-bottom:1px solid rgb(255,64,64);
+}	
+#cup_info {
+	background-attachment:scroll;
+	background-image: url(info-bg.png);
+	background-position:62px 118px;
+	background-repeat:no-repeat;
+}
+#cup_player {
+	background-attachment:scroll;
+	background-image:url(player-bg.png);
+	background-position:0 334px;
+	background-repeat:no-repeat;
+	height:600px;
+}
+.popis {
+	width:480px;
+	height:188px;
+	overflow:hidden;
+}
