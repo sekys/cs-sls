@@ -1,0 +1,163 @@
+[en]
+SAY				= [G/L CW]
+URL_INFO		= http://www.cs.gecom.sk/cup.php
+SECURITY		= # Server vyuziva nelegalnu kopiu pluginov !
+CONNECT			= Skusim pripojit na databazu....
+SQL				= SQL spojenie chybne:
+START			= Prijal som informacie o zapase na %s hod,pripravujem server.
+CVICNE			= Pripravujem Clan war....poskytnem %i cvicnych kol..
+DISCONNECT		= Zapas skoncil server sa vypina.
+CLAN_NO			= Clan s ID %i nenajdeny.
+UDAJE			= Udaje:
+WELCOME			= Vitaj
+HUD				= %s [ %i : %i ] Bonus %d%
+CLAN_SCORE		= Clan score %s
+UVODNA			= Chces vidiet zapas ? Pripoj sa na HLTV - 85.237.232.36:27019	
+
+HODNOST_NO		= Neznama hodnost
+HODNOST_1		= Clan Leader
+HODNOST_2		= Zastupca CL
+HODNOST_3		= Spravca hracov
+HODNOST_4		= Rusher
+HODNOST_5		= Camper
+HODNOST_6		= Skiller
+HODNOST_7		= Sniper
+HODNOST_8		= Lama Clanu
+HODNOST_9		= Hrac
+							
+STATUS_1		= Spustam server
+STATUS_2		= Databaza OFFLINE
+STATUS_3		= Pripravujem zapas...
+STATUS_4		= Zacinam CW
+STATUS_5		= CW ukonceny!
+
+KOLO			= kolo
+KOLO_CVICNE		= cvicne kolo
+KOLO_PREBIEHA	= Prebieha %s cvicne kolo...
+KOLO_INFO		= Prebieha %s / %s %L:
+KOLO_LAST		= Toto je posledne kolo !
+
+USER_ERROR		= Problem s databazou,prosim skus neskor.
+USER_PASS_NO	= Nezadal si heslo do konzoly.^nPriklad: setinfo %s 123
+USER_PASS		= Nespravne heslo !^nPriklad do konzole: setinfo %s 123
+USER_NO			= Herne meno nenajdene !^nSkontroluj si tvoje HERNE MENO na webe.
+USER_NOSTEAM	= Steam cislo nenajdene !^nSkontroluj si tvoje STEAM CISLO na webe.
+USER_PRESUN		= Budes presmerovany, na iny server kedze niesi clen clanu. 
+
+END				= Ukoncujem clan war
+END_OK			= Clan war ukonceny, vysledok zapasu si mozes pozriet na%s www.cs.gecom.sk
+END_1_HRA		= Clan war ukonceny pre technicku chybu.
+END_2_HRA		= Clany nestihli dohrat zapas do hodiny, vitazi nie su, ziadne trestne body neboli udelene.
+END_3_HRA		= Clan war ukonceny, %s neprisli na zapas
+END_3_HRA_B		= Clan war ukonceny, Teamy neprisli na zapas
+END_4_HRA		= Ukoncujem zapas. Dovod: Nesedi rozmiestnenie / minimalny pocet hracov pre clan: %s
+END_5_HRA		= %s clan sa vzdal !
+END_6_HRA		= Ukoncujem zapas. Cely %s clan utiekol .
+END_7_HRA		= Clan %s dosiahol skore %d, vyhral predcastne.
+
+END_1_WEB		= Technicka chyba serveru.
+END_2_WEB		= Hraci nestihli dohrat zapas do hodiny.
+END_3_WEB		= %s neprisli na zapas.
+END_3_WEB_B 	= Teamy neprisli na zapas.
+END_4_WEB		= Nesedelo rozmiestnenie / minimalny pocet hracov pre clan: %s
+END_5_WEB		= %s clan sa vzdal !
+END_6_WEB		= Cely %s clan utiekol .
+END_7_WEB		= Clan %s dosiahol skore %d, vyhral predcastne.
+
+TEAM_SWAP		= Prehadzujem teamy%s
+TEAM_PLAYER		= Hrac chce hrat za%s team.
+TEAM_PLAYER_NO	= Hraci zostavaju vo svojom teame.
+TEAM_PLAYERNO2	= Hrac nestihol vybrat team, ostavaju rovnake.
+TEAM_MENU		= Vyber si team:
+TEAM_CHOOSE		= Hrac %s z clanu %s , si vybera zaciatocny team.
+KNIFE_WIN		= Knife kolo vyhrali %s - %s vybera team.
+KNIFE_START		= Zacinam knife kolo.
+KNIFE_END		= Koncim knife kolo.
+CVICNE_WIN		= V cvicnych kolach mal najvacsie skore %s ,vybera si preto team....
+
+DEBUG 			= DEBUG %d Level
+INFO_DEBUGCLAN	= ---- Clan %s -----^nTeam %d^nScore %d^nStare score %d^nTeam pocet %d^nBonus %d
+INFO_DEBUG		= ---- Process ----^nKolo %d^nQuota System %d^n---- User ----^nWebid %d^nHodnost %d^nBonus %d^nMenu %s^nCL Presun %d
+INFO_CLAN		= Clan %s ma skore %s
+INFO_ZAPAS		= Ziadny zapas nieje...
+INFO_CLANY		= Dnes hraju: %s a %s
+INFO_START		= Pripravujem zapas na %s ,hraci musia prist do %d:%d.
+
+SAY_STATS1 		= /stat
+SAY_STATS2 		= /stav
+SAY_INFO1 		= /info
+SAY_INFO2 		= help
+
+VYZVA			= Kontrolujem zapas ...
+NO_VYZVA		= Ziadny zapas nenajdeny s dnesnym datumom / aktualnou hodinou.
+
+MAPA			= Porovnavam %s <-> %s
+MAPA_MENIM		= Menim mapu na - %s
+MAPA_ZLA		= Mapa nieje validna - %s
+
+HRAC_POCAS		= Hrac sa pripojil pocas zapasu - %i
+HRACI_OK		= Hraci su v poriadku,preradzujem do spectatu.
+HRAC_SPE		= Pocas zapasu sa mozes pripojit jedine do spectatu!
+HRAC_TEAM		= Clenovania clanu musia byt v rovnakom teame !
+HRAC_DIVAK		= Niesi clen clanu ,jediny povoleny team je SPECTATOR !
+HRAC_PRIPRAVA	= Hrac sa pripojil v priprave na zapas - %i
+HRAC_DO_SPE		= Hrac presmerovany do SPE
+HRAC_CAKAM		= Cakam na ostatnych hracov...
+HRAC_ODPOJENY	= Odpojeny hrac - minimalna quota
+HRAC_DISCONNECT	= Clen clanu sa odpojil. Ak sa nevrati do %isec zapas skonci.
+HRAC_NO			= Hrac nenajdeny.
+
+ZAPAS_SKOR		= Zapas ukonceny predcastne s %s a s %s
+ZAPAS_DOVOD		= Dovod: %s Clan: %d
+ZAPAS_TABULKA	= CLAN_ID	OBTIAZNOST	BONUS	SKORE	BODOV
+ZAPAS_BODY		= Zapisujem vysledok CLAN %d BODOV %d
+ZAPAS_RANK		= Clan %i ma rank %d
+
+MENU			= Clan Leader Panel:
+MENU_OFF		= Menu je vypnute.
+MENU_ZAPAS		= Zapas neprebieha...
+MENU_ACCESS		= Nemas dostatocnu hodnost.
+MENU_VZDAT		= Naozaj sa chces vzdat ?
+MENU_PAUSE		= Naozaj chces pauznut hru ?
+PAUSE_ERROR		= Druhy clan ma pauzu, nemozes ju zrusit ani dat svoju.
+PAUSE_CANT		= Clan moze len 1x pauznut hru na %d sec !
+PAUSEOFF		= Pauzovanie servera je vypnute.
+PAUSE_PREPARE	= Pauza sa o niekolko sekund zrusi.
+MENU_UNPAUSE	= Naozaj chces ODPauznut hru ?
+MENU_ANO		= Ano
+MENU_NIE		= Nie
+MENU_PRESUN_NO	= Hraci neboli vymeneny.
+MENU_PRESUN_DONE = vymeneny za
+MENU_PRESUVAM	= Menim %s za...
+MENU_PRESUN		= Presunut hraca
+MENU_PRESUN_ZA	= Vymenit za:
+MENU_KICK_NO	= nebol kicknuty !
+MENU_KICK_DONE	= uspesne kicknuty
+MENU_KICK_HRAC	= Clan Leader si nepraje tvoju pritomnost.
+MENU_KICK		= Kick:
+MENU_SCREEN		= Spravit screen:
+MENU_VZDAT_SA	= Vzdat sa
+
+HLTV_OFF 		= HLTV record ,port nenastaveny
+HLTV_FIND 		= HLTV najdeny
+HLTV_SEARCH		= HLTV hladam
+HLTV_DISCNONNECT = HLTV odpajam
+HLTV_CONNECT	= HLTV pripajam
+HLTV_SAY		= Zacinam nahravat zapas !
+HLTV_SAY2		= Prosim dodrzujte pravidla CW.
+HLTV_QUERY		= HLTV Prikaz:
+HLTV_ERROR1		= HLTV Problem pri vytvarani socketu.
+HLTV_ERROR2		= HLTV Nemozem najst server %s:%d
+HLTV_ERROR3		= HLTV Nemozem sa pripojit na server.
+
+ERROR_DATABASE	= Databaza nefunguje,zapas sa neodohraje.
+ERROR_ZAPAS		= Zle query pri kontrole zapasu.
+ERROR_BODY      = Problem s query pri zapise bodov
+ERROR_POCET     = Problem s databazou pri vypocte poctu clanov
+ERROR_POCET2    = Problem s query pri vypocte poctu clanov
+ERROR_RANK      = Problem s databazou pri vypocte ranku
+ERROR_RANK2     = Problem s query pri vypocte ranku
+ERROR_VYZVA     = Problem s databazou pri end_vyzva_do_zapas
+ERROR_SETINFO   = Problem s query pri user_set_info(%d,%d,%d)
+ERROR_SEARCH    = Problem s databazou pri user_search()
+	
